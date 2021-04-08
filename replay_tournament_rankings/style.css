@@ -1,0 +1,46 @@
+.disclaimer {
+    position: in-line;
+    width: 99%;
+    transition: 500ms ease-out;
+    color: #1a1a1a;
+    background: #cccccc;
+    border: 0px solid;
+    border-radius: 8px;
+    padding:5px;
+}
+
+.disclaimer.hide {
+    visibility: hidden;
+    opacity: 0;
+    transition-delay: 500ms;
+}
+
+/**
+ * https://www.w3schools.com/howto/howto_css_arrows.asp
+ */
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}

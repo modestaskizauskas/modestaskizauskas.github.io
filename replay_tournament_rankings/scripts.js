@@ -1,3 +1,15 @@
 jQuery(document).ready(function(){
-    $('p').css({border: '5px solid red', color: 'green', padding: '20px'});
+    //disclaimer button action
+    $('.disclaimer > button').click(function(){$(this).parent('div').addClass('hide')});
+
+    //create datatable
+    var table = $('table').DataTable({
+        scrollY:        '100px',
+        scroller:       true,
+        scrollCollapse: true,
+        info:           false
+    });
+    
+    $('.temp > button').click(function(){$('table').DataTable().row(4).scrollTo(false)});
 });
+

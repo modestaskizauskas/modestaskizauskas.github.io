@@ -1,9 +1,67 @@
 <!DOCTYPE html>
 <html>
     <title>LDGZC 2021 live replay</title>
+    <!-- load jQuery -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+    <!-- load dataTable -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/scroller/2.0.3/css/scroller.dataTables.min.css">
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/scroller/2.0.3/js/dataTables.scroller.min.js"></script>
+
+    <!-- load local files -->
+    <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="scripts.js"></script>
     <body>
-        <p> </p>
+        <div class='disclaimer'>
+            disclaimer text
+            <button>ok</button>
+        </div>
+        <div class='selector'>selection screen</div>
+        <div class='scores'>score and ranks table
+            <table>
+                <thead>
+                    <tr>
+                        <th>title-1</th>
+                        <th>title-2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>data-2</td>
+                        <td>data-2</td>
+                    </tr>
+                    <tr>
+                        <td>data-3</td>
+                        <td>data-2</td>
+                    </tr>
+                    <tr>
+                        <td>data-4</td>
+                        <td>data-2</td>
+                    </tr>
+                    <tr>
+                        <td>data-5</td>
+                        <td>data-2</td>
+                    </tr>
+                    <tr>
+                        <td>data-6</td>
+                        <td>data-2</td>
+                    </tr>
+                    <tr>
+                        <td>data-7</td>
+                        <td>data-2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class='temp'>
+            <button>temp button</button>
+        </div>
+        <div class='scroller'>
+            <p>Autoplay</p>
+            <p>Right arrow: <i class="arrow right"></i></p>
+            <p>Left arrow: <i class="arrow left"></i></p>
+        </div>
     </body>
 </html>
